@@ -1,0 +1,21 @@
+{
+  "name": "webpack-typescript-template",
+  "version": "1.0.0",
+  "description": "A template project for TS web projects",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack --config ./webpack.prod.js",
+    "start": "webpack serve --config ./webpack.dev.js --open"
+  },
+  "author": "gowascen@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
